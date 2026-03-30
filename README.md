@@ -309,8 +309,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Telegram Channel](https://t.me/hypersecurity_offsec)
 
 ## 🙏 Acknowledgments
-- Please Rate Me. By providing A star with a small login.//
-  
 - [reqwest](https://github.com/seanmonstar/reqwest) - HTTP client library
 - [tokio](https://github.com/tokio-rs/tokio) - Async runtime
 - [serde](https://github.com/serde-rs/serde) - Serialization framework
@@ -328,6 +326,6 @@ This tool is intended for authorized security testing and research purposes only
 <div align="center">
   <p>Made with ❤️ by <a href="https://github.com/hypersecuritylabs">Khaninkali</a> and <a href="https://github.com/HyperSecurityLabs">HyperSecurity Offensive Labs</a></p>
 </div>
-
+**Give A star If you Like**
 **Note Since ITS a New Project** 
 **USE ETHICALLY**
