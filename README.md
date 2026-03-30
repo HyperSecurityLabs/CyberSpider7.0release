@@ -152,19 +152,6 @@ CyberSpider generates multiple visualization formats:
 ./cyberspider --site https://example.com --visualize
 dot -Tpng cyberspider_graph.dot -o output.png
 ```
-
-### Interactive HTML
-```bash
-./cyberspider --site https://example.com --visualize --html-output
-# Open output.html in browser for interactive exploration
-```
-
-### JSON Export
-```bash
-./cyberspider --site https://example.com --visualize --json-output
-# Generate structured JSON for further processing
-```
-
 ## 🔌 Plugin Development
 
 Create custom plugins for specialized detection:
@@ -234,7 +221,7 @@ impl Plugin for CustomDetector {
 ### Performance Monitoring
 ```bash
 # Enable detailed metrics
-./cyberspider --site https://example.com --verbose --monitoring
+./cyberspider --site https://example.com --verbose 
 
 # View performance statistics
 tail -f cyberspider.log | grep "METRICS"
@@ -260,13 +247,13 @@ tail -f cyberspider.log | grep "METRICS"
 ### SQLite Support
 ```bash
 # Enable SQLite storage
-./cyberspider --site https://example.com --database --sqlite-path custom.db
+./cyberspider --site https://example.com --database  custom.db
 ```
 
 ### Redis Support
 ```bash
 # Enable Redis for distributed mode
-./cyberspider --site https://example.com --database --redis-url redis://localhost:6379
+./cyberspider --site https://example.com --database  redis://localhost:6379
 ```
 
 ## 🐳 Browser Integration
@@ -286,7 +273,7 @@ tail -f cyberspider.log | grep "METRICS"
 
 ## 🔧 Configuration
 
-### Environment Variables
+### Environment Variables ( iF needed)
 ```bash
 export CYBERSPIDER_REDIS_URL="redis://localhost:6379"
 export CYBERSPIDER_DB_PATH="/path/to/database.db"
@@ -309,7 +296,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Author
 
 **Khaninkali**  
-*Security Researcher & Offensive Security Specialist*
+*Security Researcher  & Offensive Security Mindset Not expert*
 
 **HyperSecurity Offensive Labs**  
 *Advanced Security Research and Development*
