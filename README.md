@@ -309,7 +309,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Telegram Channel](https://t.me/hypersecurity_offsec)
 
 ## 🙏 Acknowledgments
-
+- Please Rate Me. By providing A star with a small login.//
+  
 - [reqwest](https://github.com/seanmonstar/reqwest) - HTTP client library
 - [tokio](https://github.com/tokio-rs/tokio) - Async runtime
 - [serde](https://github.com/serde-rs/serde) - Serialization framework
