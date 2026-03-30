@@ -8,7 +8,7 @@ CyberSpider is a sophisticated reconnaissance tool designed for security profess
 ### 🔥 Key Features
 
 - **🚀 High-Performance Crawling**: Multi-threaded, concurrent URL discovery with depth control
-- **🎯 Real-Time Visualization**: Interactive graph visualization with multiple export formats (DOT, SVG, HTML)
+- **🎯 Real-Time Visualization**: Interactive graph visualization with .Dot export formats (DOT,) 
 - **🌐 External Sources Integration**: Wayback Machine, Common Crawl, VirusTotal data aggregation
 - **🔍 Security Analysis**: Built-in vulnerability scanning, API detection, and technology fingerprinting
 - **📊 Advanced Metrics**: Real-time performance monitoring with percentile-based analysis
